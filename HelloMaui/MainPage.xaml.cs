@@ -4,9 +4,9 @@ namespace HelloMaui;
 
 public partial class MainPage : ContentPage
 {
-    public MainPage(MainViewModel vm)
+    public MainPage(MainViewModel viewModel)
     {
         InitializeComponent();
-        BindingContext = vm;
+        BindingContext = viewModel;
     }
 }
